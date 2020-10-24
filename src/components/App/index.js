@@ -8,16 +8,22 @@ function App({ incrementProgressBar, progression }) {
   useEffect(() => {
     interval = setInterval(() => {
       incrementProgressBar();
-    }, 15);
+    }, 20);
   }, [])
 
-setTimeout(() => {
-  clearInterval(interval);
-}, 2000);
+  setTimeout(() => {
+    clearInterval(interval);
+  }, 3000);
 
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          <p>
+            Axel Baudain <br />
+            Développeur web Fullstack
+          </p>
+        </div>
         <p className="loading__name">
           <Typewriter
             string="Chargement en cours, veuillez patienter ..."
@@ -28,6 +34,9 @@ setTimeout(() => {
         </p>
         <div className="loading-bar">
           <div className="loading-bar__level" style={{ width: `${progression}%` }} />
+        </div>
+        <div>
+          <button>Continuer</button>
         </div>
       </header>
     </div>
