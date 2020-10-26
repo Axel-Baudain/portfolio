@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.scss';
 
-const animejs = require('animejs');
-
 function App({ incrementProgressBar, progression }) {
   return (
     <div className="App">
