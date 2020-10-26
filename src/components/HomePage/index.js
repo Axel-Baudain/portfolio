@@ -22,7 +22,7 @@ const HomePage = () => (
        Spécialisé en React <i class="fab fa-react" />
       </div>
     </div>
-    <Link className="link" to="#anchor">
+    <Link className="link" to="/menu">
       <button className="btn-discover">
         Me découvrir
     </button>

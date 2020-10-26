@@ -8,6 +8,7 @@ import './style.scss';
 // Components imports
 import HomePage from '../HomePage';
 import NotFound from '../NotFound';
+import Menu from '../Menu';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route exact path="/menu">
+          <Menu />
         </Route>
         <Route>
          <NotFound />
