@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header__title {
+  opacity: 0%;
+  animation: 1.5s appear;
+  animation-fill-mode: forwards;
+}
+
+// .loading__name {
+//   color: #61dafb;
+//   border: 2px solid #61dafb;
+//   padding: 1rem;
+//   border-radius: 0.5rem;
+//   background-color: transparent;
+//   cursor: pointer;
+//   transition: 0.2s;
+//   &:active {
+//     transition: 0s;
+//     background-color: rgba(0, 183, 189, 0.151);
+//   }
+// }
+
+.loading__name {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+}
+
+.loading__name {
+  border: none;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  &:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+  }
+  &:active {
+    box-shadow: inset 0px 0px 5px 2px black;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
