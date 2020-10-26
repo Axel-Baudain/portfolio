@@ -51,7 +51,7 @@
 }
 
 .btn-discover {
-  animation: 3s appearlast;
+  animation: 3s appear;
   animation-fill-mode: forwards;
   border: none;
   margin: 10px;
@@ -80,21 +80,42 @@
   text-decoration: none;
 }
 
-@keyframes appear {
-  0% {
-    opacity: 0%;
-  }
+.medias__list
+{
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
 
-  50% {
-    opacity: 0%;
-  }
+.social-media {
+  color: gray;
+  transition: 1s;
 
-  100% {
-    opacity: 100%;
+
+  &:hover {
+    transition: 0.25s;
+    color: #61DAFB;
   }
 }
 
-@keyframes appearlast {
+.linkedin
+{
+  opacity: 0%;
+  animation: appear 4s;
+  animation-fill-mode: forwards;
+}
+
+.github
+{
+  opacity: 0%;
+  animation: appear 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
   0% {
     opacity: 0%;
   }
