@@ -2,6 +2,12 @@
 {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: stretch;
+  align-items: center;
   color: white;
   min-height: 100vh;
+}
+
+.menu-item {
+  flex: 1;
 }

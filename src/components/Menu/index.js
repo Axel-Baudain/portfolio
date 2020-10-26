@@ -3,10 +3,10 @@ import './style.scss';
 
 const Menu = () => (
   <div className="main-menu">
-    <div>Category 1</div>
-    <div>Category 2</div>
-    <div>Category 3</div>
-    <div>Category 4</div>
+    <div className="menu-item">Category 1</div>
+    <div className="menu-item">Category 2</div>
+    <div className="menu-item">Category 3</div>
+    <div className="menu-item">Category 4</div>
   </div>
 );
 
