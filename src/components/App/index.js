@@ -9,10 +9,12 @@ import './style.scss';
 import HomePage from '../HomePage';
 import NotFound from '../NotFound';
 import Menu from '../Menu';
+import Header from '../Header';
 
 function App() {
   return (
     <div className="App">
+    <Header />
       <Switch>
         <Route exact path="/">
           <HomePage />
@@ -21,7 +23,7 @@ function App() {
           <Menu />
         </Route>
         <Route>
-         <NotFound />
+          <NotFound />
         </Route>
       </Switch>
     </div>

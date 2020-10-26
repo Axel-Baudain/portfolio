@@ -1,0 +1,28 @@
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  color: white;
+  padding: 1rem;
+
+  &__logo
+  {
+    width: 44px;
+    height: auto;
+  }
+
+  &__link
+  {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+}
+
+.links
+{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
