@@ -9,7 +9,7 @@ import './style.scss';
 import HomePage from '../HomePage';
 import NotFound from '../NotFound';
 
-function App({ incrementProgressBar, progression }) {
+function App() {
   return (
     <div className="App">
       <Switch>

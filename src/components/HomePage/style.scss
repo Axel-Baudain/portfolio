@@ -1,5 +1,4 @@
 .homepage__header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,27 +6,37 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  scroll-behavior: smooth;
 }
 
 .header__title {
+  font-weight: bold;
+  font-size: calc(1.5rem + 2vmin);
   opacity: 0%;
   animation: 1.5s appear;
   animation-fill-mode: forwards;
 }
 
-// .loading__name {
-//   color: #61dafb;
-//   border: 2px solid #61dafb;
-//   padding: 1rem;
-//   border-radius: 0.5rem;
-//   background-color: transparent;
-//   cursor: pointer;
-//   transition: 0.2s;
-//   &:active {
-//     transition: 0s;
-//     background-color: rgba(0, 183, 189, 0.151);
-//   }
-// }
+.header__subtitle {
+  font-weight: normal;
+  font-size: calc(10px + 2vmin);
+  animation: 1.5s appear;
+  animation-fill-mode: forwards;
+}
+
+.header__picture
+{
+  width: 180px;
+  height: 180px;
+  &-container {
+    animation: appear 1.5s;
+    animation-fill-mode: forwards;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+  }
+}
 
 .btn-discover {
   background-image: linear-gradient(
@@ -39,6 +48,8 @@
 }
 
 .btn-discover {
+  animation: 2.5s appearlast;
+  animation-fill-mode: forwards;
   border: none;
   margin: 10px;
   padding: 15px 45px;
@@ -62,8 +73,27 @@
   }
 }
 
+.link
+{
+  text-decoration: none;
+}
+
 @keyframes appear {
   0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes appearlast {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
     opacity: 0%;
   }
 
