@@ -1,4 +1,4 @@
-.homepage__header {
+.home__header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,33 +9,36 @@
   scroll-behavior: smooth;
 }
 
-.header__title {
+.home__item
+{
+  margin-bottom: 1rem;
+}
+
+.home__title {
   font-weight: bold;
   font-size: calc(1.5rem + 2vmin);
-  opacity: 0%;
-  animation: 1.5s appear;
-  animation-fill-mode: forwards;
 }
 
-.header__subtitle {
+.home__subtitle {
   font-weight: normal;
   font-size: calc(10px + 2vmin);
-  animation: 1.5s appear;
+  animation: 2s appear;
   animation-fill-mode: forwards;
 }
 
-.header__picture
-{
-  width: 180px;
-  height: 180px;
-  &-container {
-    animation: appear 1.5s;
-    animation-fill-mode: forwards;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    overflow: hidden;
-  }
+.fullstack {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #426eff, #b10032);
+  background-size: 100%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.react {
+  color: #61DAFB;
 }
 
 .btn-discover {
@@ -48,7 +51,7 @@
 }
 
 .btn-discover {
-  animation: 2.5s appearlast;
+  animation: 3s appearlast;
   animation-fill-mode: forwards;
   border: none;
   margin: 10px;
@@ -73,13 +76,16 @@
   }
 }
 
-.link
-{
+.link {
   text-decoration: none;
 }
 
 @keyframes appear {
   0% {
+    opacity: 0%;
+  }
+
+  50% {
     opacity: 0%;
   }
 

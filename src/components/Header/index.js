@@ -9,9 +9,9 @@ const Header = () => (
       <img className="header__logo" src={logo} alt="Logo représentant un A et un B stylisés." />
     </Link>
     <div className="links">
-      <NavLink className="header__link" to="/">Some Link</NavLink>
-      <NavLink className="header__link" to="/">Some Link</NavLink>
-      <NavLink className="header__link" to="/">Some Link</NavLink>
+      <NavLink className="header__link" to="/">Qui suis-je ?</NavLink>
+      <NavLink className="header__link" to="/">Projets</NavLink>
+      <NavLink className="header__link" to="/">Contact</NavLink>
     </div>
   </div>
 );
