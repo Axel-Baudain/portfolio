@@ -7,10 +7,13 @@ const brokentimetitle = "Broken Time";
 const brokentimeimage = "https://images.unsplash.com/photo-1447015237013-0e80b2786ddc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80";
 const brokentimedesc = "Un site de fictions interactives dans lesquelles les joueurs doivent aider un protagoniste à survivre en milieu hostile. Réalisé lors de l'Apothéose de l'École O'Clock."
 
-const fakeimage = "https://images.unsplash.com/photo-1548048026-5a1a941d93d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80";
+const scenariotequetitle = "La scénariothèque"
+const scenariothequeimage = "https://images.unsplash.com/photo-1578377375762-cbcc98d68af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80";
+const scenariothequedesc = "Work In Progres...";
 
-const fakeimage2 = "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1343&q=80"
-const fakeimage3 = "https://images.unsplash.com/photo-1542924597-e73e0e35c010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=621&q=80"
+const lastprojecttitle = "A venir ...";
+const lastprojectimage = "https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80";
+const lastprojectdesc = "D'autres projets verront le jour et seront affichés ici ! 🚀";
 
 const Projects = () => (
   <div className="projects__page">
@@ -18,19 +21,9 @@ const Projects = () => (
       Mes projets
     </div>
     <div className="all__projects">
-      <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" />
-      <SingleProject image={fakeimage} />
-      <SingleProject image={fakeimage2} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
-      <SingleProject image={fakeimage3} />
+      <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
+      <SingleProject title={scenariotequetitle} desc={scenariothequedesc} image={scenariothequeimage} />
+      <SingleProject title={lastprojecttitle} desc={lastprojectdesc} image={lastprojectimage} />
     </div>
   </div>
 );
