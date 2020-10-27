@@ -1,0 +1,11 @@
+.projects__page {
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  scroll-behavior: smooth;
+  flex: 1;
+}

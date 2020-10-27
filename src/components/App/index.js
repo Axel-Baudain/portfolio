@@ -10,6 +10,7 @@ import HomePage from '../HomePage';
 import NotFound from '../NotFound';
 import Header from '../Header';
 import About from '../About';
+import Projects from '../Projects';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
         <Route>
           <NotFound />
