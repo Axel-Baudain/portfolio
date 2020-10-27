@@ -14,11 +14,9 @@ const Header = () => (
       <NavLink className="header__link" exact to="/projects"><i class="fas fa-book" /></NavLink>
       <NavLink className="header__link" exact to="/contact"><i class="far fa-address-card" /></NavLink>
     </div>
-
-    {/* Div vide pour le bon alignement */}
     <div className="links">
-      <Link><i class="fab fa-linkedin fa-2x header__link" /></Link>
-      <Link><i class="fab fa-github-square fa-2x header__link" /></Link>
+      <a href="https://www.linkedin.com/in/axel-baudain/" alt="Lien vers mon profil Linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x header__link" /></a>
+      <a href="https://github.com/Axel-Baudain" alt="Lien vers mon profil Github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square fa-2x header__link" /></a>
     </div>
   </div>
 );
