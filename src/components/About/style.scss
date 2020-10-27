@@ -1,0 +1,40 @@
+.about__page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  scroll-behavior: smooth;
+  flex: 1;
+  margin-left: 10%;
+}
+
+.about__title
+{
+  font-weight: bold;
+  font-size: calc(2rem + 2vmin);
+}
+
+.about__content
+{
+  margin-right: 10%;
+  text-align: justify;
+  animation: appear 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}

@@ -9,6 +9,7 @@ import './style.scss';
 import HomePage from '../HomePage';
 import NotFound from '../NotFound';
 import Header from '../Header';
+import About from '../About';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HomePage />
+        </Route>
+        <Route exact path="/about">
+          <About />
         </Route>
         <Route>
           <NotFound />
