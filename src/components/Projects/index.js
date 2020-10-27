@@ -14,10 +14,24 @@ const fakeimage3 = "https://images.unsplash.com/photo-1542924597-e73e0e35c010?ix
 
 const Projects = () => (
   <div className="projects__page">
-    <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" />
-    <SingleProject image={fakeimage} />
-    <SingleProject image={fakeimage2} />
-    <SingleProject image={fakeimage3} />
+    <div className="projects__title">
+      Mes projets
+    </div>
+    <div className="all__projects">
+      <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" />
+      <SingleProject image={fakeimage} />
+      <SingleProject image={fakeimage2} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+      <SingleProject image={fakeimage3} />
+    </div>
   </div>
 );
 
