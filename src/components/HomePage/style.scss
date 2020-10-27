@@ -9,7 +9,6 @@
   scroll-behavior: smooth;
   flex: 1;
   margin-left: 10%;
-  overflow: auto;
 }
 
 .home__item
@@ -82,6 +81,7 @@
 
 .link {
   text-decoration: none;
+  color: #61DAFB;
 }
 
 @keyframes appear {
