@@ -2,9 +2,10 @@
 {
   display: flex;
   justify-content: space-between;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  align-items: center;
   color: white;
-  padding: 0.5rem 1rem 0;
+  padding: 0.3rem;
 
   &__logo
   {
@@ -16,13 +17,35 @@
   {
     color: white;
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: gray;
+    transition: 1s;
+    &:hover {
+      transition: 0.25s;
+      color: #61DAFB;
+    }
   }
 }
 
 .links
 {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+
+.active {
+  color: #61DAFB;
+}
+
+.social-media {
+  color: gray;
+  transition: 1s;
+  margin: 1rem 0;
+
+
+  &:hover {
+    transition: 0.25s;
+    color: #61DAFB;
+  }
 }

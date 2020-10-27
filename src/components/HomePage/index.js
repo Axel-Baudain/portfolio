@@ -24,10 +24,6 @@ const HomePage = () => (
         Me découvrir
     </button>
     </Link>
-    <div className="home__item medias__list">
-      <Link className="link linkedin"><i class="fab fa-linkedin fa-2x social-media" /></Link>
-      <Link className="link github"><i class="fab fa-github-square fa-2x social-media" /></Link>
-    </div>
   </header>
 );
 
