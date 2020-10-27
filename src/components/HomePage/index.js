@@ -7,13 +7,16 @@ import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
 
 const HomePage = () => (
-  <header className="home__header">
-    <div className="home__title home__item">
-      <Typewriter string="Axel Baudain" delay={30} stopBlinkinOnComplete cursor="|" />
-    </div>
+  <header className="homepage__header">
+    <h1 className="home__title home__item">
+      <Typewriter string="Salut ! 👋" delay={30} stopBlinkinOnComplete cursor="|" />
+    </h1>
     <div className="home__item">
       <div className="home__subtitle">
-        Développeur web <span className="fullstack">Fullstack</span> 💻
+        Je suis Axel Baudain,
+      </div>
+      <div className="home__subtitle">
+        un développeur web <span className="fullstack">Fullstack</span> 💻
       </div>
       <div className="home__subtitle">
         Spécialisé en <span className="react">React <i class="fab fa-react" /></span>
@@ -24,10 +27,6 @@ const HomePage = () => (
         Me découvrir
     </button>
     </Link>
-    <div className="home__item medias__list">
-      <Link className="link linkedin"><i class="fab fa-linkedin fa-2x social-media" /></Link>
-      <Link className="link github"><i class="fab fa-github-square fa-2x social-media" /></Link>
-    </div>
   </header>
 );
 

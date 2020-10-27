@@ -9,9 +9,16 @@ const Header = () => (
       <img className="header__logo" src={logo} alt="Logo représentant un A et un B stylisés." />
     </Link>
     <div className="links">
-      <NavLink className="header__link" to="/about">Qui suis-je ?</NavLink>
-      <NavLink className="header__link" to="/projects">Projets</NavLink>
-      <NavLink className="header__link" to="/contact">Contact</NavLink>
+      <NavLink className="header__link" exact to="/"><i class="fas fa-home" /></NavLink>
+      <NavLink className="header__link" exact to="/about"><i class="far fa-user" /></NavLink>
+      <NavLink className="header__link" exact to="/projects"><i class="fas fa-book" /></NavLink>
+      <NavLink className="header__link" exact to="/contact"><i class="far fa-address-card" /></NavLink>
+    </div>
+
+    {/* Div vide pour le bon alignement */}
+    <div className="links">
+      <Link><i class="fab fa-linkedin fa-2x header__link" /></Link>
+      <Link><i class="fab fa-github-square fa-2x header__link" /></Link>
     </div>
   </div>
 );

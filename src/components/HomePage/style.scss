@@ -1,22 +1,26 @@
-.home__header {
-  min-height: 100vh;
+.homepage__header {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-behavior: smooth;
+  flex: 1;
+  margin-left: 10%;
+  overflow: auto;
 }
 
 .home__item
 {
   margin-bottom: 1rem;
+  
 }
 
 .home__title {
   font-weight: bold;
-  font-size: calc(1.5rem + 2vmin);
+  font-size: calc(3rem + 2vmin);
 }
 
 .home__subtitle {
@@ -54,7 +58,7 @@
   animation: 3s appear;
   animation-fill-mode: forwards;
   border: none;
-  margin: 10px;
+  margin-top: 2rem;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -78,42 +82,6 @@
 
 .link {
   text-decoration: none;
-}
-
-.medias__list
-{
-  height: 100px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 100px;
-}
-
-.social-media {
-  color: gray;
-  transition: 1s;
-  margin: 0 0.2rem;
-
-
-  &:hover {
-    transition: 0.25s;
-    color: #61DAFB;
-  }
-}
-
-.linkedin
-{
-  opacity: 0%;
-  animation: appear 4s;
-  animation-fill-mode: forwards;
-}
-
-.github
-{
-  opacity: 0%;
-  animation: appear 5s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes appear {
