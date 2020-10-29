@@ -3,6 +3,7 @@ import './style.scss';
 
 const SingleProject = ({ image, desc = "", link = "", title = "A venir ...", available }) => {
 const classToApply = available ? "fa-angle-double-right" : "fa-times unvavailable"
+const btnClass = available ? "available" : "unavailable";
 
   return (
     <div className="project__card">
@@ -12,7 +13,7 @@ const classToApply = available ? "fa-angle-double-right" : "fa-times unvavailabl
           {title}
         </div>
         {desc}
-        <a className="btn-toproject" href={link} ><i class={`fas ${classToApply} fa-2x`} ></i></a>
+        <a className={`btn-toproject ${btnClass}`} href={link} ><i class={`fas ${classToApply} fa-2x`} ></i></a>
       </div>
     </div>
   );

@@ -1,11 +1,13 @@
 import React from 'react';
+import { Typewriter } from 'react-typewriting-effect'
+
 import './style.scss';
 import SingleSkill from './SingleSkill';
 
 const Skills = () => (
   <div className="skills__page">
     <div className="skills__title">
-      Mes skills
+      <Typewriter string="Mes skills" delay={20} cursor="|" stopBlinkinOnComplete />
   </div>
     <div className="skills__list">
       <div className="list__title">
@@ -21,7 +23,7 @@ const Skills = () => (
       <SingleSkill skillname="HTML 5" percent={75} />
       <SingleSkill skillname="CSS 3" percent={80} />
       <SingleSkill skillname="PHP 7+" percent={70} />
-      <SingleSkill skillname="JavaScript" percent={95} />
+      <SingleSkill skillname="JavaScript" percent={90} />
       <SingleSkill skillname="SQL" percent={60} />
     </div>
     <div className="skills__list">

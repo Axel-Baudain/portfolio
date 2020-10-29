@@ -12,6 +12,7 @@ import Header from '../Header';
 import About from '../About';
 import Projects from '../Projects';
 import Skills from '../Skills';
+import Contact from '../Contact';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/skills">
           <Skills />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
         <Route>
           <NotFound />
