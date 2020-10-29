@@ -1,0 +1,30 @@
+.skills__page {
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  scroll-behavior: smooth;
+  flex: 1;
+  margin-left: 10%;
+}
+
+.skills__title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: calc(2rem + 2vmin);
+  min-height: 200px;
+}
+
+.skills__list
+{
+  margin-bottom: 1rem;
+}
+
+.list__title
+{
+  font-size: 2rem;
+}
