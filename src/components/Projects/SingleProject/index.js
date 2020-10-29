@@ -13,7 +13,7 @@ const btnClass = available ? "available" : "unavailable";
           {title}
         </div>
         {desc}
-        <a className={`btn-toproject ${btnClass}`} href={link} ><i class={`fas ${classToApply} fa-2x`} ></i></a>
+        <a className={`btn-toproject ${btnClass}`} href={link} target="_blank" rel="noopener noreferrer" ><i class={`fas ${classToApply} fa-2x`} ></i></a>
       </div>
     </div>
   );
