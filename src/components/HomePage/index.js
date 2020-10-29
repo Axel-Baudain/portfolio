@@ -9,7 +9,7 @@ import './style.scss';
 const HomePage = () => (
   <header className="homepage__header">
     <h1 className="home__title home__item">
-      <Typewriter string="Salut ! 👋" delay={30} stopBlinkinOnComplete cursor="|" />
+      <Typewriter string="Salut ! 👋" delay={20} stopBlinkinOnComplete cursor="|" />
     </h1>
     <div className="home__item">
       <div className="home__subtitle">

@@ -7,6 +7,8 @@
   max-height: 300px;
   margin: 1% 1% 0 0;
   overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 5px 5px rgb(0, 0, 0);
 }
 
 .project__image {
@@ -48,12 +50,23 @@
   color: gray;
   display: inline;
   width: 2rem;
+  text-shadow: none
+}
 
-  &:hover
-  {
-    color: #61DAFB;
-    transition: 0.25s;
-  }
+.available:hover
+{
+  color: #61DAFB;
+  transition: 0.25s;
+  font-size: 1.2rem;
+  transform: rotate(-10deg);
+}
+
+.unavailable:hover
+{
+  color: #ff4f4f;
+  transition: 0.25s;
+  font-size: 1.2rem;
+  transform: rotate(-10deg);
 }
 
 @keyframes appearhover {

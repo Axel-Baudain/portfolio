@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
 
 import SingleProject from './SingleProject';
@@ -18,7 +19,7 @@ const lastprojectdesc = "D'autres projets verront le jour et seront affichés ic
 const Projects = () => (
   <div className="projects__page">
     <div className="projects__title">
-      Mes projets
+      <Typewriter string="Mes projets" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div className="all__projects">
       <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
