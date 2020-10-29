@@ -25,7 +25,6 @@
 .home__subtitle {
   font-weight: normal;
   font-size: calc(10px + 2vmin);
-  animation: 2s appear;
   animation-fill-mode: forwards;
 }
 
@@ -54,7 +53,6 @@
 }
 
 .btn-discover {
-  animation: 3s appear;
   animation-fill-mode: forwards;
   border: none;
   margin-top: 2rem;
@@ -82,18 +80,4 @@
 .link {
   text-decoration: none;
   color: #61DAFB;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0%;
-  }
-
-  50% {
-    opacity: 0%;
-  }
-
-  100% {
-    opacity: 100%;
-  }
 }
