@@ -21,20 +21,5 @@
 {
   margin-right: 10%;
   text-align: justify;
-  animation: appear 1s;
   animation-fill-mode: forwards;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0%;
-  }
-
-  50% {
-    opacity: 0%;
-  }
-
-  100% {
-    opacity: 100%;
-  }
 }
