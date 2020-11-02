@@ -22,8 +22,8 @@ const Projects = () => (
       <Typewriter string="Mes projets" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div className="all__projects">
-      <SingleProject title={brokentimetitle} desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
-      <SingleProject title={scenariotequetitle} desc={scenariothequedesc} image={scenariothequeimage} />
+      <SingleProject title={brokentimetitle} emoji="🕰️" desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
+      <SingleProject title={scenariotequetitle} emoji="📚" desc={scenariothequedesc} image={scenariothequeimage} />
       <SingleProject title={lastprojecttitle} desc={lastprojectdesc} image={lastprojectimage} />
     </div>
   </div>
