@@ -19,13 +19,34 @@
   min-height: 200px;
 }
 
-.skills__list
-{
-  margin-bottom: 1rem;
+.skills__list {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
 }
 
-.list__title
-{
-  font-size: 2rem;
-  margin-bottom: 0.3rem;
+.skill__header {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  word-break: normal;
+}
+
+.skill__title {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.associated__skills {
+  min-height: 70px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-left: 1px solid white;
+  margin-left: 1rem;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
 
+// TODO : Ajouter ma photo sur la page "A propos de moi"
+
 const About = () => (
   <div className="about__page">
     <div className="about__title">
