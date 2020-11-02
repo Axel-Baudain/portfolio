@@ -14,6 +14,8 @@ import Projects from '../Projects';
 import Skills from '../Skills';
 import Contact from '../Contact';
 
+// TODO : Changer la police d'écriture globale
+
 function App() {
   return (
     <div className="App">
