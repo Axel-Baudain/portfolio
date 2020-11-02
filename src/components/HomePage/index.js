@@ -19,7 +19,7 @@ const HomePage = () => (
         un développeur web <span className="fullstack">Fullstack</span> 💻
       </div>
       <div className="home__subtitle">
-        Spécialisé en <span className="react">React <i class="fab fa-react" /></span>
+        spécialisé en <span className="react">React <i class="fab fa-react" /></span>
       </div>
     </div>
     <Link className="home__item link" to="/about">

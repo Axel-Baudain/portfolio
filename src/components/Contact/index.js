@@ -8,10 +8,16 @@ const Contact = () => (
       <Typewriter string="Contactez-moi !" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div>
-      Cette page est en cours de développement... <span role="img" aria-label="Emoji laptop">💻</span>
+      Alors, convaincu&#40;e&#41; ?<br />
+      Vous pouvez me joindre par les moyens suivants !
     </div>
-    <div>
-      Elle arrivera bientôt ! <span role="img" aria-label="Emoji rocket">🚀</span>
+    <div className="contact__methods">
+      <div>
+        <i className="fas fa-envelope" /> Mail : <a className="link" href="mailto:axel.baudain@gmail.com">axel.baudain@gmail.com</a>
+      </div>
+      <div>
+        <i className="fab fa-linkedin" /> LinkedIn : <a className="link" href="https://www.linkedin.com/in/axel-baudain/">https://www.linkedin.com/in/axel-baudain/</a>
+      </div>
     </div>
   </div>
 );
