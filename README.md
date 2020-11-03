@@ -1,3 +1,6 @@
+# My portfolio
+My portfolio is public and available here -> https://axel-baudain.surge.sh
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
