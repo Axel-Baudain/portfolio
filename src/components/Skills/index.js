@@ -24,7 +24,7 @@ const Skills = () => (
       <div className="skill__header">
         <i className={operatingSystems} />
         <div className="skill__title">
-          Operating Systems
+          Syst. D'exploitation
         </div>
       </div>
       <div className="associated__skills">
@@ -37,7 +37,7 @@ const Skills = () => (
       <div className="skill__header">
         <i className={languages} />
         <div className="skill__title">
-          Languages
+          Langages
         </div>
       </div>
       <div className="associated__skills">
@@ -70,7 +70,7 @@ const Skills = () => (
       <div className="skill__header">
         <i className={unitTests} />
         <div className="skill__title">
-          Unit Tests
+          Tests unit.
         </div>
       </div>
       <div className="associated__skills">
@@ -85,7 +85,7 @@ const Skills = () => (
       <div className="skill__header">
         <i className={dataBases} />
         <div className="skill__title">
-          Databases
+          Bases de donn.
         </div>
       </div>
       <div className="associated__skills">
@@ -110,7 +110,7 @@ const Skills = () => (
       <div className="skill__header">
         <i className={sideSkills} />
         <div className="skill__title">
-          Side skills
+          Comp. Annexes
         </div>
       </div>
       <div className="associated__skills">
