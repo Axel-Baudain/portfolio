@@ -7,7 +7,7 @@ const btnClass = available ? "available" : "unavailable";
 
   return (
     <div className="project__card">
-      <img className="project__image" src={image} />
+      <img className="project__image" alt="Illustration de projet" src={image} />
       <div className="project__desc">
         <div className="project__title">
           {title} <span role="img" aria-label="Emoji associé">{emoji}</span>
