@@ -1,5 +1,5 @@
 // Library imports
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // CSS imports
@@ -17,6 +17,10 @@ import Contact from '../Contact';
 // TODO : Changer la police d'écriture globale
 
 function App() {
+  useEffect(() => {
+    document.title = "Axel Baudain - Développeur Fullstack";
+  });
+
   return (
     <div className="App">
     <Header />

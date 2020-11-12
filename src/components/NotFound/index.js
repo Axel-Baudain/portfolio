@@ -1,6 +1,5 @@
 import React from 'react';
 import { Typewriter } from 'react-typewriting-effect'
-import { Link } from 'react-router-dom';
 
 import './style.scss';
 
