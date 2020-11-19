@@ -23,3 +23,17 @@
   text-align: justify;
   animation-fill-mode: forwards;
 }
+
+.image__container {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.picture-profile
+{
+  height: 200px;
+  width: 200px;
+}

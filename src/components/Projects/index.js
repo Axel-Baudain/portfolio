@@ -8,9 +8,9 @@ const brokentimetitle = "Broken Time";
 const brokentimeimage = "https://images.unsplash.com/photo-1447015237013-0e80b2786ddc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80";
 const brokentimedesc = "Un site de fictions interactives dans lesquelles les joueurs doivent aider un protagoniste à survivre en milieu hostile. Réalisé lors de l'Apothéose de l'École O'Clock."
 
-const scenariotequetitle = "La scénariothèque"
+const scenariotequetitle = "Scenarioz"
 const scenariothequeimage = "https://images.unsplash.com/photo-1578377375762-cbcc98d68af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80";
-const scenariothequedesc = "Work In Progres...";
+const scenariothequedesc = "Une bibliothèque communautaire de scénarios de jeux de rôles, destinée aux maîtres de jeux. [WORK IN PROGRESS]";
 
 const lastprojecttitle = "A venir ...";
 const lastprojectimage = "https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80";
