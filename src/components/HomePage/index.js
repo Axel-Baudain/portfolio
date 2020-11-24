@@ -5,6 +5,7 @@ import { Typewriter } from 'react-typewriting-effect'
 
 // CSS imports
 import './style.scss';
+import './style-mobile.scss';
 
 const HomePage = () => (
   <header className="homepage__header">
