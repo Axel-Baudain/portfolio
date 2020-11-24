@@ -23,7 +23,7 @@ const Projects = () => (
     </div>
     <div className="all__projects">
       <SingleProject title={brokentimetitle} emoji="🕰️" desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
-      <SingleProject title={scenariotequetitle} emoji="📚" desc={scenariothequedesc} image={scenariothequeimage} />
+      <SingleProject title={scenariotequetitle} emoji="📚" desc={scenariothequedesc} image={scenariothequeimage} link="https://scenarioz.surge.sh" available={true} />
       <SingleProject title={lastprojecttitle} desc={lastprojectdesc} image={lastprojectimage} />
     </div>
   </div>

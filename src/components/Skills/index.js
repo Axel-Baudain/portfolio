@@ -17,7 +17,13 @@ const sideSkills = "fas fa-puzzle-piece " + size;
 
 const Skills = () => (
   <div className="skills__page">
-    <div className="skills__title">
+  <div className="skills__title">
+    Cette page est en cours de développement.
+  </div>
+  <div>
+    N'hésitez pas à revenir un peu plus tard ! 😄
+  </div>
+    {/* <div className="skills__title">
       <Typewriter string="Compétences" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div className="skills__list">
@@ -118,7 +124,7 @@ const Skills = () => (
         <SingleSkill skillname="Draw.IO" percent={70} />
         <SingleSkill skillname="Adobe Illustrator" percent={25} />
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
