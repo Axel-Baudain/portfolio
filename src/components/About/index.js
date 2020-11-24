@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
+import './style-mobile.scss';
 
 import profilePicture from "../../assets/images/20201019_110817.jpg";
 
