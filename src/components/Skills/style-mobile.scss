@@ -1,4 +1,4 @@
-@media (min-width: 601px) {
+@media(max-width: 600px) {
   .skills__page {
     height: 100vh;
     overflow-y: scroll;
@@ -9,12 +9,13 @@
     color: white;
     scroll-behavior: smooth;
     flex: 1;
-    margin-left: 10%;
+    text-align: center;
   }
 
   .skills__title {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: calc(2rem + 2vmin);
     min-height: 200px;
@@ -23,6 +24,7 @@
   .skills__list {
     margin-bottom: 5rem;
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
   }
 
@@ -44,11 +46,10 @@
   }
 
   .associated__skills {
-    min-height: 70px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border-left: 1px solid white;
-    margin-left: 1rem;
+    border-top: 1px solid white;
+    margin-top: 1rem;
   }
 }

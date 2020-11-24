@@ -8,12 +8,6 @@ const SingleSkill = ({ skillname, percent }) => {
       <div className="skill__name">
         {skillname}
       </div>
-      <div className="progression">
-        <div className="progression__bar" style={{ width: `${percent}%` }} />
-      </div>
-      <div className="skill__percent">
-        {percent}%
-    </div>
     </div>
   );
 };
