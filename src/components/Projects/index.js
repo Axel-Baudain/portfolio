@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
+import './style-mobile.scss';
 
 import SingleProject from './SingleProject';
 

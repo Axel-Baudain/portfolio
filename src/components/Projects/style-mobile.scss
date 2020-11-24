@@ -1,4 +1,4 @@
-@media (min-width: 601px) {
+@media (max-width: 600px) {
   .projects__page {
     height: 100vh;
     overflow-y: scroll;
@@ -9,7 +9,6 @@
     color: white;
     scroll-behavior: smooth;
     flex: 1;
-    margin-left: 10%;
   }
 
   .all__projects {
@@ -17,6 +16,7 @@
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
+    justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
     scroll-behavior: smooth;
@@ -26,6 +26,7 @@
   .projects__title {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: calc(2rem + 2vmin);
     min-height: 200px;
