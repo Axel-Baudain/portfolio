@@ -5,16 +5,21 @@ import './style-mobile.scss';
 
 import SingleProject from './SingleProject';
 
+import brokentimeimage from '../../assets/images/pocketwatch.jpg';
+import scenariothequeimage from '../../assets/images/library.jpg';
+import pongremasteredimage from '../../assets/images/arcade.jpg';
+import lastprojectimage from '../../assets/images/rocket.jpg';
+
 const brokentimetitle = "Broken Time";
-const brokentimeimage = "https://images.unsplash.com/photo-1447015237013-0e80b2786ddc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80";
 const brokentimedesc = "Un site de fictions interactives dans lesquelles les joueurs doivent aider un protagoniste à survivre en milieu hostile. Réalisé lors de l'Apothéose de l'École O'Clock."
 
 const scenariotequetitle = "Scenarioz"
-const scenariothequeimage = "https://images.unsplash.com/photo-1578377375762-cbcc98d68af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80";
 const scenariothequedesc = "Une bibliothèque communautaire de scénarios de jeux de rôles, destinée aux maîtres de jeux. [WORK IN PROGRESS]";
 
+const pongtitle = "Pong Remastered"
+const pongdesc = "Le célèbre jeu PONG revisité et mis en ligne. Jouable à deux en local ! [WORK IN PROGRESS]";
+
 const lastprojecttitle = "A venir ...";
-const lastprojectimage = "https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80";
 const lastprojectdesc = "D'autres projets verront le jour et seront affichés ici ! 🚀";
 
 const Projects = () => (
@@ -25,6 +30,7 @@ const Projects = () => (
     <div className="all__projects">
       <SingleProject title={brokentimetitle} emoji="🕰️" desc={brokentimedesc} image={brokentimeimage} link="http://brokentime-project.surge.sh/" available={true} />
       <SingleProject title={scenariotequetitle} emoji="📚" desc={scenariothequedesc} image={scenariothequeimage} link="https://scenarioz.surge.sh" available={true} />
+      <SingleProject title={pongtitle} emoji="🎮" desc={pongdesc} image={pongremasteredimage} link="https://pong-remastered.surge.sh" available={true} />
       <SingleProject title={lastprojecttitle} desc={lastprojectdesc} image={lastprojectimage} />
     </div>
   </div>

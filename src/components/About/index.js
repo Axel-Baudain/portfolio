@@ -3,7 +3,7 @@ import { Typewriter } from 'react-typewriting-effect'
 import './style.scss';
 import './style-mobile.scss';
 
-import profilePicture from "../../assets/images/20201019_110817.jpg";
+import profilePicture from "../../assets/images/20201019_110817.png";
 
 const About = () => (
   <div className="about__page">
