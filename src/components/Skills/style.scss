@@ -13,42 +13,38 @@
   }
 
   .skills__title {
-    display: flex;
-    align-items: center;
     font-weight: bold;
-    font-size: calc(2rem + 2vmin);
-    min-height: 200px;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
   }
 
-  .skills__list {
-    margin-bottom: 5rem;
-    display: flex;
-    align-items: center;
-  }
-
-  .skill__header {
-    height: 100%;
+  .skills__container {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    word-break: normal;
   }
 
-  .skill__title {
+  .skills__category {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 3rem;
+  }
+
+  .skills__category--title {
     font-weight: bold;
-    margin-top: 1rem;
+  }
+
+  .skills__category--header {
     text-align: center;
-    font-size: 1.3rem;
+    width: 250px;
+    align-self: center;
   }
 
-  .associated__skills {
-    min-height: 70px;
+  .skills__category--list {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border-left: 1px solid white;
+    border-left : 1px solid white;
     margin-left: 1rem;
+    padding-left: 1rem;
   }
 }

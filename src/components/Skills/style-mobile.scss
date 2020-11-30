@@ -9,47 +9,43 @@
     color: white;
     scroll-behavior: smooth;
     flex: 1;
-    text-align: center;
   }
 
   .skills__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: calc(2rem + 2vmin);
-    min-height: 200px;
-  }
-
-  .skills__list {
-    margin-bottom: 5rem;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-  }
-
-  .skill__header {
-    height: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    word-break: normal;
-  }
-
-  .skill__title {
-    font-weight: bold;
-    margin-top: 1rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
   }
 
-  .associated__skills {
+  .skills__container {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .skills__category {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 3rem;
+  }
+
+  .skills__category--title {
+    font-weight: bold;
+  }
+
+  .skills__category--header {
+    text-align: center;
+    width: 250px;
+    align-self: center;
+    border-bottom : 1px solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .skills__category--list {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    border-top: 1px solid white;
-    margin-top: 1rem;
+    align-items: center;
   }
 }

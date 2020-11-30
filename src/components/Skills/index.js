@@ -10,10 +10,13 @@ const size = "fa-2x";
 const operatingSystems = "fas fa-desktop " + size;
 const languages = "fas fa-code " + size;
 const frameworks = "fas fa-cogs " + size;
+const libraries = "fas fa-book " + size;
 const unitTests = "fas fa-vial " + size;
 const dataBases = "fas fa-database " + size;
 const versionning = "fas fa-server " + size;
+const communication = "far fa-comment-alt " + size;
 const sideSkills = "fas fa-puzzle-piece " + size;
+const futureSkills = "fas fa-download " + size;
 
 
 const Skills = () => (
@@ -21,103 +24,121 @@ const Skills = () => (
     <div className="skills__title">
       <Typewriter string="Compétences" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={operatingSystems} />
-        <div className="skill__title">
-          Syst. D'exploitation
+    <div className="skills__container" >
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={operatingSystems} />
+          <p className="skills__category--title">Syst. D'exploitation</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Windows 10"} />
+          <SingleSkill skillname={"Ubuntu - Linux"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="Windows 10" percent={95} />
-        <SingleSkill skillname="Ubuntu (Linux)" percent={75} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={languages} />
-        <div className="skill__title">
-          Langages
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={languages} />
+          <p className="skills__category--title">Languages</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"HTML 5"} />
+          <SingleSkill skillname={"CSS 3"} />
+          <SingleSkill skillname={"SCSS"} />
+          <SingleSkill skillname={"PHP 7+"} />
+          <SingleSkill skillname={"JavaScript (ES6+)"} />
+          <SingleSkill skillname={"SQL"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="HTML 5" percent={75} />
-        <SingleSkill skillname="CSS 3" percent={80} />
-        <SingleSkill skillname="PHP 7+" percent={70} />
-        <SingleSkill skillname="JavaScript" percent={90} />
-        <SingleSkill skillname="SQL" percent={60} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={frameworks} />
-        <div className="skill__title">
-          Frameworks
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={frameworks} />
+          <p className="skills__category--title">Frameworks</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"React.JS"} />
+          <SingleSkill skillname={"Lumen - Laravel (PHP)"} />
+          <SingleSkill skillname={"Boostrap (CSS)"} />
+          <SingleSkill skillname={"Bulma (CSS)"} />
+          <SingleSkill skillname={"SemanticUI (JS)"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="React-JS" percent={90} />
-        <SingleSkill skillname="Redux" percent={85} />
-        <SingleSkill skillname="SemanticUI" percent={55} />
-        <SingleSkill skillname="Bootstrap (CSS)" percent={60} />
-        <SingleSkill skillname="AltoRouter (PHP)" percent={85} />
-        <SingleSkill skillname="Lumen (PHP)" percent={50} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={unitTests} />
-        <div className="skill__title">
-          Tests unit.
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={libraries} />
+          <p className="skills__category--title">Librairies</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Redux (JS)"} />
+          <SingleSkill skillname={"React-Redux (JS)"} />
+          <SingleSkill skillname={"React-Router (JS)"} />
+          <SingleSkill skillname={"Axios (JS)"} />
+          <SingleSkill skillname={"AltoRouter (PHP)"} />
+          <SingleSkill skillname={"AltoDispatcher (PHP)"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="TDD" percent={30} />
-        <SingleSkill skillname="Mocha-JS" percent={75} />
-        <SingleSkill skillname="Chai-JS" percent={70} />
-        <SingleSkill skillname="Enzyme-JS" percent={50} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={dataBases} />
-        <div className="skill__title">
-          Bases de donn.
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={unitTests} />
+          <p className="skills__category--title">Tests Unit.</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Chai.JS"} />
+          <SingleSkill skillname={"Mocha.JS"} />
+          <SingleSkill skillname={"Enzyme.JS"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="MySQL" percent={60} />
-        <SingleSkill skillname="MariaDB" percent={60} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={versionning} />
-        <div className="skill__title">
-          Versionning
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={dataBases} />
+          <p className="skills__category--title">Bases de Donn.</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"MySQL / MariaDB"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="GIT" percent={75} />
-      </div>
-    </div>
-
-    <div className="skills__list">
-      <div className="skill__header">
-        <i className={sideSkills} />
-        <div className="skill__title">
-          Comp. Annexes
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={versionning} />
+          <p className="skills__category--title">Versionning</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Git / Github"} />
         </div>
       </div>
-      <div className="associated__skills">
-        <SingleSkill skillname="Whimsical" percent={80} />
-        <SingleSkill skillname="Draw.IO" percent={70} />
-        <SingleSkill skillname="Adobe Illustrator" percent={25} />
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={communication} />
+          <p className="skills__category--title">Outils de comm.</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Discord"} />
+          <SingleSkill skillname={"Slack"} />
+        </div>
+      </div>
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={sideSkills} />
+          <p className="skills__category--title">Comp. Annexes</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Discord - Gest. Serveurs"} />
+          <SingleSkill skillname={"Adobe Illustrator"} />
+          <SingleSkill skillname={"Photoshop"} />
+          <SingleSkill skillname={"Gimp 2"} />
+          <SingleSkill skillname={"Word / Excel"} />
+        </div>
+      </div>
+      <div className="skills__category">
+        <div className="skills__category--header">
+          <i className={futureSkills} />
+          <p className="skills__category--title">Comp. à venir...</p>
+        </div>
+        <div className="skills__category--list">
+          <SingleSkill skillname={"Node.JS"} />
+          <SingleSkill skillname={"Discord.JS"} />
+          <SingleSkill skillname={"Three.JS"} />
+          <SingleSkill skillname={"Express.JS"} />
+        </div>
       </div>
     </div>
   </div>
