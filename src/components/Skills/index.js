@@ -138,6 +138,7 @@ const Skills = () => (
           <SingleSkill skillname={"Discord.JS"} />
           <SingleSkill skillname={"Three.JS"} />
           <SingleSkill skillname={"Express.JS"} />
+          <SingleSkill skillname={"Docker"} />
         </div>
       </div>
     </div>
