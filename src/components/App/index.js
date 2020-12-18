@@ -13,6 +13,7 @@ import About from '../About';
 import Projects from '../Projects';
 import Skills from '../Skills';
 import Contact from '../Contact';
+import Story from '../Story';
 
 // TODO : Changer la police d'écriture globale
 
@@ -39,6 +40,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/story">
+          <Story />
         </Route>
         <Route>
           <NotFound />
