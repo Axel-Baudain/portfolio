@@ -7,7 +7,7 @@ const Story = () => (
       Mon parcours
     </h1>
     <div className="chronology">
-
+    
     </div>
   </div>
 );
