@@ -1,6 +1,7 @@
 @media (min-width: 801px) {
   .skills__page {
     height: 100vh;
+    width: 100%;
     overflow-y: scroll;
     display: flex;
     flex-flow: column nowrap;
@@ -20,7 +21,7 @@
 
   .skills__container {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 
   .skills__category {

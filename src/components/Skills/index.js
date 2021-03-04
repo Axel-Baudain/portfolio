@@ -131,14 +131,13 @@ const Skills = () => (
       <div className="skills__category">
         <div className="skills__category--header">
           <i className={futureSkills} />
-          <p className="skills__category--title">Comp. à venir...</p>
+          <p className="skills__category--title">Comp. visées</p>
         </div>
         <div className="skills__category--list">
           <SingleSkill skillname={"Node.JS"} />
           <SingleSkill skillname={"Discord.JS"} />
-          <SingleSkill skillname={"Three.JS"} />
-          <SingleSkill skillname={"Express.JS"} />
           <SingleSkill skillname={"Docker"} />
+          <SingleSkill skillname={"Firebase"} />
         </div>
       </div>
     </div>

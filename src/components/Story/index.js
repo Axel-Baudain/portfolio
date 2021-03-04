@@ -7,7 +7,8 @@ const Story = () => (
       Mon parcours
     </h1>
     <div className="chronology">
-    
+    Cette section est en cours de développement.<br />
+    Revenez plus tard !
     </div>
   </div>
 );
