@@ -8,15 +8,15 @@ const Contact = () => (
       <Typewriter string="Contactez-moi !" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div>
-      Alors, convaincu&#40;e&#41; ?<br />
-      Vous pouvez me joindre par les moyens suivants !
+      En espérant vous avoir convaincu, je vous laisse la possibilité de<br />
+      me joindre par les moyens suivants.
     </div>
     <div className="contact__methods">
       <div>
         <i className="fas fa-envelope" /> Mail : <a className="link" href="mailto:axel.baudain@gmail.com">axel.baudain@gmail.com</a>
       </div>
       <div>
-        <i className="fab fa-linkedin" /> LinkedIn : <a className="link" href="https://www.linkedin.com/in/axel-baudain/">https://www.linkedin.com/in/axel-baudain/</a>
+      <i class="fas fa-phone-alt" /> Téléphone : <a className="link" href="tel:+33635468870">06 35 46 88 70</a>
       </div>
     </div>
   </div>

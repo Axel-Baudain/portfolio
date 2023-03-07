@@ -7,9 +7,6 @@ import profilePicture from "../../assets/images/20201019_110817.png";
 
 const About = () => (
   <div className="about__page">
-    <div className="image__container">
-      <img className="picture-profile" src={profilePicture} alt="Axel Baudain"/>
-    </div>
     <div className="about__title">
       <Typewriter string="A propos de moi ..." delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
