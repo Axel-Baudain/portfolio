@@ -7,8 +7,8 @@ const Story = () => (
       Mon parcours
     </h1>
     <div className="chronology">
-    Cette section est en cours de développement.<br />
-    Revenez plus tard !
+    Navré, cette section est encore en cours de développement.<br />
+    Mais vous devriez avoir mon CV sous le coude, non ?
     </div>
   </div>
 );

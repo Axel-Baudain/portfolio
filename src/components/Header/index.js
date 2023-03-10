@@ -13,7 +13,7 @@ const Header = () => (
       <NavLink className="header__link" exact to="/contact"><i class="far fa-address-card" /></NavLink>
     </div>
     <div className="links">
-      <a href="https://www.linkedin.com/in/axel-baudain/" alt="Lien vers mon profil Linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x header__link" /></a>
+      {/* <a href="https://www.linkedin.com/in/axel-baudain/" alt="Lien vers mon profil Linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x header__link" /></a> */}
       <a href="https://github.com/Axel-Baudain" alt="Lien vers mon profil Github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square fa-2x header__link" /></a>
     </div>
   </div>

@@ -52,14 +52,17 @@ const Skills = () => (
       <div className="skills__category">
         <div className="skills__category--header">
           <i className={frameworks} />
-          <p className="skills__category--title">Frameworks</p>
+          <p className="skills__category--title">Frameworks & Outils</p>
         </div>
         <div className="skills__category--list">
           <SingleSkill skillname={"React.JS"} />
+          <SingleSkill skillname={"React Redux"} />
           <SingleSkill skillname={"Lumen - Laravel (PHP)"} />
           <SingleSkill skillname={"Boostrap (CSS)"} />
           <SingleSkill skillname={"Bulma (CSS)"} />
           <SingleSkill skillname={"SemanticUI (JS)"} />
+          <SingleSkill skillname={"Docker"} />
+          <SingleSkill skillname={"Yarn"} />
         </div>
       </div>
       <div className="skills__category">
@@ -94,6 +97,7 @@ const Skills = () => (
         </div>
         <div className="skills__category--list">
           <SingleSkill skillname={"MySQL / MariaDB"} />
+          <SingleSkill skillname={"Firebase"} />
         </div>
       </div>
       <div className="skills__category">
@@ -122,6 +126,7 @@ const Skills = () => (
         </div>
         <div className="skills__category--list">
           <SingleSkill skillname={"Discord - Gest. Serveurs"} />
+          <SingleSkill skillname={"Slack"} />
           <SingleSkill skillname={"Adobe Illustrator"} />
           <SingleSkill skillname={"Photoshop"} />
           <SingleSkill skillname={"Gimp 2"} />
@@ -136,8 +141,6 @@ const Skills = () => (
         <div className="skills__category--list">
           <SingleSkill skillname={"Node.JS"} />
           <SingleSkill skillname={"Discord.JS"} />
-          <SingleSkill skillname={"Docker"} />
-          <SingleSkill skillname={"Firebase"} />
         </div>
       </div>
     </div>

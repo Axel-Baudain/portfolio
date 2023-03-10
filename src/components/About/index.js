@@ -11,8 +11,11 @@ const About = () => (
       <Typewriter string="A propos de moi ..." delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div className="about__content">
-      Anciennement technicien de laboratoire <span role="img" aria-label="Blouse de laboratoire">🥼</span>, je me suis lancé dans ma passion principale : Le développement. Après avoir remarqué que ce tournant pouvait
-      m'apporter les talents nécessaires au développement de ma créativité, je me suis lancé dans le grand bain <span role="img" aria-label="Emoji natation">🏊</span>.
+    <span role="img" aria-label="Blouse de laboratoire">🥼</span>Actuellement technicien de laboratoire, je cherche à finaliser une reconversion professionnelle dans le développement.
+    <br />
+    <span role="img" aria-label="Emoji natation">⚡</span> Ce domaine m'étant familier depuis des années, je me suis lancé dans une formation complète afin de pouvoir acquérir des compétences cruciales à mon efficacité en entreprise.
+    <br />
+    <span role="img" aria-label="Emoji natation">🧠</span> En attendant de pouvoir accroître mes compétences et mes connaissances à vos côtés, j'assouvis ma curiosité par mes propres moyens !
     </div>
   </div>
 );

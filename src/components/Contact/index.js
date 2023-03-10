@@ -8,8 +8,9 @@ const Contact = () => (
       <Typewriter string="Contactez-moi !" delay={20} cursor="|" stopBlinkinOnComplete />
     </div>
     <div>
-      En espérant vous avoir convaincu, je vous laisse la possibilité de<br />
-      me joindre par les moyens suivants.
+      En espérant vous avoir convaincu(e), je vous invite à me joindre via les moyens ci-dessous.
+      <br/>
+      À bientôt !
     </div>
     <div className="contact__methods">
       <div>
