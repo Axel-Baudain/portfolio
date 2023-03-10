@@ -4,6 +4,7 @@ import './style.scss';
 
 const Header = () => (
   <div className="header">
+    <div></div>
     <div className="links">
       <NavLink className="header__link" exact to="/"><i class="fas fa-home" /></NavLink>
       <NavLink className="header__link" exact to="/about"><i class="far fa-user" /></NavLink>
